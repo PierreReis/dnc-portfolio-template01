@@ -1,0 +1,44 @@
+header img {
+    margin: 3rem 0 0 5rem;
+}
+
+.hero {
+    margin-top: 10rem;
+}
+
+.hero div:first-child {
+    width: 5%;
+}
+
+.hero div:last-child {
+    width: 95%;
+}
+
+.menu {
+    justify-content: center;
+}
+
+ul {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    width: 2rem;
+    font-weight: 300;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 1rem 0;
+}
+
+.container-title {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 5rem;
+}
