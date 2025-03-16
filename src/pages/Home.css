@@ -1,0 +1,91 @@
+.title-projects {
+    flex-direction: column;
+    margin:0 8rem 5rem 0;
+}
+
+h2 {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.adereco {
+    text-align: right;
+}
+
+.section-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    margin: 0 7rem;
+}
+
+.project-card div:first-child {
+    margin-right: 3rem;
+    position: relative;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 1rem 0 .5rem 0;
+}
+
+.project-card p {
+    font-size: .8rem;
+    font-weight: 300;
+    color: #808080;
+}
+
+.tecnologies {
+    position: absolute;
+    bottom: 1rem;
+    right: .1rem;
+}
+
+h4 {
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: .6rem;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    margin: 0 .5rem;
+}
+
+.about-me {
+    flex-direction: column;
+    margin: 10rem 0 5rem 8rem;
+}
+
+.about-me h2 {
+    text-align: left;
+}
+
+.about-me div {
+    text-align: left;
+}
+
+.presentation {
+    justify-content: end;
+}
+
+.presentation div {
+    width: 55%;
+    margin-right: 13rem;
+}
+
+.presentation p:first-child {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.presentation :nth-child(2) {
+    font-weight: 300;
+    margin-top: .5rem;
+    line-height: 1.5rem;
+}
+
+.presentation span {
+    margin-right: .5rem;
+}
