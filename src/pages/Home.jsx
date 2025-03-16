@@ -10,6 +10,12 @@ import Interface from '../assets/interface.svg'
 import Html from '../assets/html.svg'
 import ImageReact from '../assets/image-react.svg'
 import Wordpress from '../assets/wordpress.svg'
+import FigmaLogo from '../assets/figma-logo.svg'
+import LinkedinLogo from '../assets/linkedin-logo.svg'
+import InstagramLogo from '../assets/instagram-logo.svg'
+import GitHubLogo from '../assets/github-logo.svg'
+import DribbbleLogo from '../assets/dribbble-logo.svg'
+import YoutubeLogo from '../assets/youtube-logo.svg'
 
 function Home() {
     return (
@@ -173,6 +179,17 @@ function Home() {
                     <p>Studying API RESTful</p>
                     <p>Studying User Experience</p>
                 </div>
+            </div>
+            <div className='contact-title'>
+                <h2>Contato</h2>
+            </div>
+            <div className="d-flex network">
+                <div><img src={FigmaLogo}/></div>
+                <div><img src={LinkedinLogo}/></div>
+                <div><img src={InstagramLogo}/></div>
+                <div><img src={GitHubLogo}/></div>
+                <div><img src={DribbbleLogo}/></div>
+                <div><img src={YoutubeLogo}/></div>
             </div>
         </>
     )
