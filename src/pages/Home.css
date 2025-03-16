@@ -89,3 +89,59 @@ h4 {
 .presentation span {
     margin-right: .5rem;
 }
+
+.container-skills {
+    margin: 8rem 7rem;
+}
+
+.container-skills div:last-child {
+    margin-right: 0;
+}
+
+.skill-card {
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.skill-card div:first-child {
+    padding: 1rem;
+    border-right: .1rem solid #00000025;
+}
+
+.skill-card div:last-child {
+    padding: 0 1rem;
+}
+
+h5 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.skill-card p {
+    font-weight: 300;
+    font-size: .8rem;
+    margin: .5rem 0;
+}
+
+.container-experiences {
+    justify-content: space-around;
+}
+
+.container-experiences div {
+    padding-left: 1rem;
+    border-left: .2rem solid #00000025;
+}
+
+.container-experiences h5 {
+    padding-top: 1rem;
+}
+
+.container-experiences p {
+    font-weight: 300;
+    margin: .5rem 0;
+}
+
+.container-experiences p:last-child {
+    margin-bottom: 0;
+}
