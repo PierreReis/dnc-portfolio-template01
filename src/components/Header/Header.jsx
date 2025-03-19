@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <header>
-                <div className='logo'><img src={Logo}/></div>
+                <div><img src={Logo}/></div>
                 <div className='d-flex hero'>
                     <div className='d-flex menu'>
                         <nav>

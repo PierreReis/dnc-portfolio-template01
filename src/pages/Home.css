@@ -100,11 +100,14 @@ h4 {
 
 .skill-card {
     align-items: center;
+    border: .05rem solid #00000010;
+    border-radius: .8rem;
+    padding: .5rem 0;
     margin-right: 3rem;
 }
 
 .skill-card div:first-child {
-    padding: 1rem;
+    padding: .5rem 1rem;
     border-right: .1rem solid #00000025;
 }
 
@@ -120,7 +123,7 @@ h5 {
 
 .skill-card p {
     font-weight: 300;
-    font-size: .8rem;
+    font-size: .7rem;
     margin: .5rem 0;
 }
 
@@ -166,4 +169,82 @@ h5 {
 
 .network div:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 1350px) {
+    .section-projects {
+        grid-template-columns: 1fr;
+        gap: 3rem 0;
+        margin: 0 3rem;
+    }
+    .project-card {
+        max-width: 45rem;
+        justify-self: center;
+    }
+    .container-skills {
+        flex-wrap: wrap;
+        margin: 5rem 3rem 3rem 3rem;
+        justify-content: center;
+    }
+    .skill-card {
+        width: 20rem;
+        margin:0 0 2rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-projects {
+        margin: 0;
+    }
+    .title-projects h2 {
+        text-align: center;
+    }
+    .adereco {
+        text-align: center;
+    }
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project-card div:first-child {
+        margin: auto;
+    }
+    .about-me {
+        margin: 5rem 0 3rem 0;
+    }
+    .about-me h2 {
+        text-align: center;
+    }
+    .about-me div {
+        text-align: center;
+    }
+    .presentation {
+        justify-content: center;
+        text-align: center;
+    }
+    .presentation div {
+        margin-right: 0;
+    }
+    .container-experiences {
+        margin: 0 .5rem;
+    }
+    .container-experiences div {
+        padding-left: .5rem;
+        border-left: .2rem solid #00000025;
+    }
+    .container-experiences h5 {
+        font-size: 1rem;
+    }
+    .container-experiences p {
+        font-size: .8rem;
+    }
+    .contact-title {
+        margin: 5rem 0 3rem 0;
+    }
+    .network div {
+        margin-right: 2rem;
+    }
+    .network div:last-child {
+        margin-right: 0;
+    }
 }
