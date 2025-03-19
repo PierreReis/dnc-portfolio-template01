@@ -27,7 +27,7 @@ function Home() {
             </div>
             <div className='section-projects'>
                 <div className='d-flex project-card'>
-                    <div className='project-image'>
+                    <div>
                         <img src={Project}/>
                         <div className='d-flex tecnologies'>
                             <h4>javascript</h4>
@@ -46,7 +46,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='d-flex project-card'>
-                    <div className='project-image'>
+                    <div>
                         <img src={Project}/>
                         <div className='d-flex tecnologies'>
                             <h4>javascript</h4>
@@ -65,7 +65,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='d-flex project-card'>
-                    <div className='project-image'>
+                    <div>
                         <img src={Project}/>
                         <div className='d-flex tecnologies'>
                             <h4>javascript</h4>
@@ -84,7 +84,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='d-flex project-card'>
-                    <div className='project-image'>
+                    <div>
                         <img src={Project}/>
                         <div className='d-flex tecnologies'>
                             <h4>javascript</h4>
